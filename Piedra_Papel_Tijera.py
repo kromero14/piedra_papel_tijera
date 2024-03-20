@@ -7,11 +7,7 @@ X=(input("ingrese su decision: "))
 
 #processing
 
-opciones =("piedra" ,"papel" ,"tijera" )
-Y=random.choice(opciones)
-
-print("tu eleccion:", X )
-print("eleccion de la maquina:", Y)
+Y=("piedra" ,"papel" ,"tijera" )
 
 if X == Y:
     print("es un empate")
